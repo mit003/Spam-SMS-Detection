@@ -40,7 +40,7 @@ More Accuracy and good Precision score occur in MultinomialNB(NB).
 
 3. Run:
    ```sh
-  streamlit run Deploy.py
+   streamlit run Deploy.py
 
 ## Usage
 1. Use the Deploy.py script to deploy the model for predictions.
