@@ -3,18 +3,21 @@
 ## Overview
 This project focuses on detecting spam messages using machine learning techniques. The main goal is to classify SMS messages as spam or not spam. 
 
-## Classification Techniques:
-Algorithm	Accuracy	Precision
-K-Nearest Neighbors (KN)	0.909091	1.000000
-Naive Bayes (NB)	0.964539	1.000000
-Random Forest (RF)	0.978079	1.000000
-Support Vector Classifier (SVC)	0.976144	0.961783
-XGBoost (XGB)	0.972276	0.921212
-AdaBoost (AB)	0.961960	0.896774
-Logistic Regression (LR)	0.950999	0.889706
-Bagging (BG)	0.959381	0.832402
-Gradient Boosting (GB)	0.959381	0.832402
-Decision Tree (DT)	0.942618	0.812081
+## Algorithm Performance
+
+| Algorithm | Accuracy | Precision |
+|-----------|----------|-----------|
+| KN        | 0.909091 | 1.000000  |
+| NB        | 0.964539 | 1.000000  |
+| RF        | 0.978079 | 1.000000  |
+| SVC       | 0.976144 | 0.961783  |
+| XGB       | 0.972276 | 0.921212  |
+| AB        | 0.961960 | 0.896774  |
+| LR        | 0.950999 | 0.889706  |
+| BG        | 0.959381 | 0.832402  |
+| GB        | 0.959381 | 0.832402  |
+| DT        | 0.942618 | 0.812081  |
+
 More Accuracy and good Precision score occur in MultinomialNB(NB).
 
 ## Project Structure
